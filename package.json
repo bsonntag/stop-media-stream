@@ -1,0 +1,23 @@
+{
+  "name": "stop-media-stream",
+  "version": "0.0.0",
+  "description": "Stops all tracks in a MediaStream",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsonntag/stop-media-stream.git"
+  },
+  "keywords": [
+    "webrtc",
+    "mediastream"
+  ],
+  "author": "Benjamim Sonntag <benjamimsonntag@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bsonntag/stop-media-stream/issues"
+  },
+  "homepage": "https://github.com/bsonntag/stop-media-stream#readme"
+}
