@@ -6,8 +6,8 @@ function stopMediaStream(mediaStream) {
 }
 
 function stopAndRemoveTrack(mediaStream, track) {
-  track.stop();
-  mediaStream.removeTrack(track);
+  track.stop()
+  mediaStream.removeTrack(track)
 }
 
 module.exports = stopMediaStream
