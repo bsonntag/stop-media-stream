@@ -4,7 +4,9 @@
   "description": "Stops all tracks in a MediaStream",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "spec": "electron-mocha --renderer",
+    "test": "npm run lint && npm run spec"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,9 @@
   },
   "homepage": "https://github.com/bsonntag/stop-media-stream#readme",
   "devDependencies": {
+    "chai": "^3.5.0",
+    "electron": "^1.4.13",
+    "electron-mocha": "^3.3.0",
     "eslint": "^3.11.1"
   }
 }
