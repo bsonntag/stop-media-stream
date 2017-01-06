@@ -1,6 +1,6 @@
 {
   "name": "stop-media-stream",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Stops all tracks in a MediaStream",
   "main": "index.js",
   "scripts": {
