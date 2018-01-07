@@ -24,7 +24,7 @@
   "homepage": "https://github.com/bsonntag/stop-media-stream#readme",
   "devDependencies": {
     "chai": "^3.5.0",
-    "electron": "^1.4.13",
+    "electron": "^1.7.10",
     "electron-mocha": "^3.3.0",
     "eslint": "^3.11.1"
   }
