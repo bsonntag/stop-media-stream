@@ -1,8 +1,9 @@
 module.exports = {
-  'env': {
-    'es6': true,
-    'mocha': true,
+  env: {
+    es6: true,
+    mocha: true,
   },
-  'rules': {
+  rules: {
+    'no-unused-expressions': 'off',
   },
 };
