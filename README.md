@@ -36,6 +36,8 @@ navigator.mediaDevices.getUserMedia(constraints)
 
 Please feel free to submit any issues or pull requests.
 
+Just make sure tests pass with `npm test` before submitting a pull request.
+
 ## License
 
 MIT
