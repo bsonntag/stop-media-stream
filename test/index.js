@@ -1,26 +1,27 @@
-const chai = require('chai')
-const stopMediaStream = require('../index')
+const chai = require('chai');
+const stopMediaStream = require('../index');
 
-const expect = chai.expect
+const expect = chai.expect;
 
 describe('stopMediaStream(mediaStream)', () => {
-  let mediaStream
+  let mediaStream;
 
   beforeEach(() => {
-    let canvas = document.createElement('canvas')
-    mediaStream = canvas.captureStream()
+    const canvas = document.createElement('canvas');
 
-    expect(mediaStream.active).to.be.true
-    expect(mediaStream.getTracks()).to.not.have.length(0)
-  })
+    mediaStream = canvas.captureStream();
+
+    expect(mediaStream.active).to.be.true;
+    expect(mediaStream.getTracks()).to.not.have.length(0);
+  });
 
   it('deactivates the mediaStream', () => {
-    stopMediaStream(mediaStream)
-    expect(mediaStream.active).to.be.false
-  })
+    stopMediaStream(mediaStream);
+    expect(mediaStream.active).to.be.false;
+  });
 
   it('removes all tracks from the media stream', () => {
-    stopMediaStream(mediaStream)
-    expect(mediaStream.getTracks()).to.have.length(0)
-  })
-})
+    stopMediaStream(mediaStream);
+    expect(mediaStream.getTracks()).to.have.length(0);
+  });
+});

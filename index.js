@@ -1,13 +1,17 @@
+function stopAndRemoveTrack(mediaStream) {
+  return function(track) {
+    track.stop();
+    mediaStream.removeTrack(track);
+  };
+}
+
 function stopMediaStream(mediaStream) {
-  if(!mediaStream) return
+  if (!mediaStream) {
+    return;
+  }
 
   mediaStream.getTracks()
-    .forEach(stopAndRemoveTrack.bind(null, mediaStream))
+    .forEach(stopAndRemoveTrack(mediaStream));
 }
 
-function stopAndRemoveTrack(mediaStream, track) {
-  track.stop()
-  mediaStream.removeTrack(track)
-}
-
-module.exports = stopMediaStream
+module.exports = stopMediaStream;
