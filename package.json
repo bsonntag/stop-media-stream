@@ -2,31 +2,32 @@
   "name": "stop-media-stream",
   "version": "0.0.1",
   "description": "Stops all tracks in a MediaStream",
+  "keywords": [
+    "mediastream",
+    "webrtc"
+  ],
+  "homepage": "https://github.com/bsonntag/stop-media-stream#readme",
+  "bugs": {
+    "url": "https://github.com/bsonntag/stop-media-stream/issues"
+  },
+  "license": "MIT",
+  "author": "Benjamim Sonntag <benjamimsonntag@gmail.com>",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsonntag/stop-media-stream.git"
+  },
   "scripts": {
     "lint": "eslint .",
     "spec": "electron-mocha --renderer",
     "test": "npm run lint && npm run spec"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bsonntag/stop-media-stream.git"
-  },
-  "keywords": [
-    "webrtc",
-    "mediastream"
-  ],
-  "author": "Benjamim Sonntag <benjamimsonntag@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bsonntag/stop-media-stream/issues"
-  },
-  "homepage": "https://github.com/bsonntag/stop-media-stream#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "electron": "^1.7.10",
     "electron-mocha": "^3.3.0",
     "eslint": "^4.15.0",
-    "eslint-config-seegno": "^10.0.0"
+    "eslint-config-seegno": "^10.0.0",
+    "sort-package-json": "^1.7.1"
   }
 }

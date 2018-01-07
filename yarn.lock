@@ -1566,6 +1566,16 @@ sntp@2.x.x:
   dependencies:
     hoek "4.x.x"
 
+sort-object-keys@^1.1.1:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/sort-object-keys/-/sort-object-keys-1.1.2.tgz#d3a6c48dc2ac97e6bc94367696e03f6d09d37952"
+
+sort-package-json@^1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/sort-package-json/-/sort-package-json-1.7.1.tgz#f2e5fbffe8420cc1bb04485f4509f05e73b4c0f2"
+  dependencies:
+    sort-object-keys "^1.1.1"
+
 spdx-correct@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/spdx-correct/-/spdx-correct-1.0.2.tgz#4b3073d933ff51f3912f03ac5519498a4150db40"
