@@ -19,8 +19,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "spec": "electron-mocha --renderer",
-    "test": "npm run lint && npm run spec"
+    "test": "electron-mocha --renderer"
   },
   "devDependencies": {
     "chai": "^3.5.0",
