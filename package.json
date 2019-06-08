@@ -19,12 +19,12 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "test": "electron-mocha --renderer"
+    "test": "electron-mocha --renderer --color"
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "electron": "^1.7.10",
-    "electron-mocha": "^3.3.0",
+    "electron": "^5.0.3",
+    "electron-mocha": "^8.0.2",
     "eslint": "^4.15.0",
     "eslint-config-seegno": "^10.0.0",
     "sort-package-json": "^1.7.1"
