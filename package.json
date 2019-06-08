@@ -25,8 +25,8 @@
     "chai": "^4.2.0",
     "electron": "^5.0.3",
     "electron-mocha": "^8.0.2",
-    "eslint": "^4.15.0",
-    "eslint-config-seegno": "^10.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-seegno": "^15.0.0",
     "sort-package-json": "^1.7.1"
   }
 }
