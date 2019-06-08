@@ -10,23 +10,23 @@
   "bugs": {
     "url": "https://github.com/bsonntag/stop-media-stream/issues"
   },
-  "license": "MIT",
-  "author": "Benjamim Sonntag <benjamimsonntag@gmail.com>",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bsonntag/stop-media-stream.git"
   },
+  "license": "MIT",
+  "author": "Benjamim Sonntag <benjamimsonntag@gmail.com>",
+  "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "electron-mocha --renderer"
+    "test": "electron-mocha --renderer --color"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "electron": "^1.7.10",
-    "electron-mocha": "^3.3.0",
-    "eslint": "^4.15.0",
-    "eslint-config-seegno": "^10.0.0",
-    "sort-package-json": "^1.7.1"
+    "chai": "^4.2.0",
+    "electron": "^5.0.3",
+    "electron-mocha": "^8.0.2",
+    "eslint": "^5.16.0",
+    "eslint-config-seegno": "^15.0.0",
+    "sort-package-json": "^1.22.1"
   }
 }
