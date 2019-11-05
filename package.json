@@ -1,6 +1,6 @@
 {
   "name": "stop-media-stream",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Stops all tracks in a MediaStream",
   "keywords": [
     "mediastream",
