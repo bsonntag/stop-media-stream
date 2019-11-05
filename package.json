@@ -16,6 +16,9 @@
   },
   "license": "MIT",
   "author": "Benjamim Sonntag <benjamimsonntag@gmail.com>",
+  "files": [
+    "index.js"
+  ],
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
