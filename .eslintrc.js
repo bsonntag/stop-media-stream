@@ -3,11 +3,5 @@ module.exports = {
     browser: true,
     node: true,
   },
-  extends: 'seegno',
-  rules: {
-    'comma-dangle': [
-      'error',
-      'always-multiline',
-    ],
-  },
+  extends: '@bsonntag',
 };
