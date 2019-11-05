@@ -10,8 +10,7 @@ function stopMediaStream(mediaStream) {
     return;
   }
 
-  mediaStream.getTracks()
-    .forEach(stopAndRemoveTrack(mediaStream));
+  mediaStream.getTracks().forEach(stopAndRemoveTrack(mediaStream));
 }
 
 module.exports = stopMediaStream;
