@@ -14,7 +14,7 @@ This will release the camera, if the MediaStream was obtained with
 Install with:
 
 ```sh
-$ npm install stop-media-stream --save
+$ npm install stop-media-stream
 ```
 
 Or:
@@ -26,21 +26,19 @@ $ yarn add stop-media-stream
 ## Usage
 
 ```js
-const stopMediaStream = require('stop-media-stream')
+import stopMediaStream from 'stop-media-stream';
 
 // get a media stream somehow
 navigator.mediaDevices.getUserMedia(constraints)
   .then(mediaStream => {
     // Use your media stream and when you're done with it:
-    stopMediaStream(mediaStream)
-  })
+    stopMediaStream(mediaStream);
+  });
 ```
 
 ## Contributing
 
 Please feel free to submit any issues or pull requests.
-
-Just make sure tests pass with `npm test` before submitting a pull request.
 
 ## License
 
