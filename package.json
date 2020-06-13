@@ -25,11 +25,11 @@
     "test": "electron-mocha --renderer --color"
   },
   "devDependencies": {
-    "@bsonntag/eslint-config": "^0.5.0",
+    "@bsonntag/eslint-config": "^0.6.0",
     "chai": "^4.2.0",
     "electron": "^7.1.0",
     "electron-mocha": "^8.1.2",
-    "eslint": "^6.6.0",
+    "eslint": "^7.2.0",
     "husky": "^3.0.9",
     "lint-staged": "^9.4.2",
     "prettier": "^1.18.2",
