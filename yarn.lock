@@ -218,12 +218,7 @@
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
   integrity sha512-tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==
 
-"@types/node@*":
-  version "12.7.12"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.7.12.tgz#7c6c571cc2f3f3ac4a59a5f2bd48f5bdbc8653cc"
-  integrity sha512-KPYGmfD0/b1eXurQ59fXD1GBzhSQfz6/lKBxkaHX9dKTzjXbK68Zt7yGUxUsCS1jeTy/8aL+d9JEr+S54mpkWQ==
-
-"@types/node@^12.0.12":
+"@types/node@*", "@types/node@^12.0.12":
   version "12.12.5"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.5.tgz#66103d2eddc543d44a04394abb7be52506d7f290"
   integrity sha512-KEjODidV4XYUlJBF3XdjSH5FWoMCtO0utnhtdLf1AgeuZLOrRbvmU/gaRCVg7ZaQDjVf3l84egiY0mRNe5xE4A==
@@ -865,9 +860,9 @@ electron-window@^0.8.0:
     is-electron-renderer "^2.0.0"
 
 electron@^7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-7.1.0.tgz#29ca01958ddbc6fb5ec6950279efec4f93045384"
-  integrity sha512-ITWtgmiXvyzdz22g/ksBORay1aBrt+JwFfL4PWi1SoSk9yWOllIoa8smneQ121DCgQLLhfmT3aCF1qQhxEpCIQ==
+  version "7.2.4"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-7.2.4.tgz#9fc0446dae23ead897af8742470cb18da55c6ce9"
+  integrity sha512-Z+R692uTzXgP8AHrabE+kkrMlQJ6pnAYoINenwj9QSqaD2YbO8IuXU9DMCcUY0+VpA91ee09wFZJNUKYPMnCKg==
   dependencies:
     "@electron/get" "^1.0.1"
     "@types/node" "^12.0.12"
