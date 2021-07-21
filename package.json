@@ -16,9 +16,10 @@
   },
   "license": "MIT",
   "author": "Benjamim Sonntag <benjamimsonntag@gmail.com>",
-  "main": "dist/index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "bundle": "rm -rf dist && babel src --out-dir dist --ignore **/*.test.js --extensions .ts,.tsx",
+    "bundle": "rm -rf dist && tsc && babel src --out-dir dist --ignore **/*.test.js --extensions .ts,.tsx",
     "bundle:watch": "babel src --out-dir dist --watch --ignore **/*.test.js --extensions .ts,.tsx",
     "lint": "eslint .",
     "test": "jest",
