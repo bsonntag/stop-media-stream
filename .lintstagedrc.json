@@ -1,0 +1,12 @@
+{
+  "*.js": [
+    "eslint --fix",
+    "prettier --write",
+    "git add"
+  ],
+  "package.json": [
+    "sort-package-json",
+    "git add"
+  ],
+  "src/*.js": "jest --findRelatedTests"
+}
