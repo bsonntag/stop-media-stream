@@ -7,7 +7,7 @@ const stopAndRemoveTrack = (mediaStream: MediaStream) => {
 };
 
 /** Stops a media stream while making sure all tracks are removed. */
-export const stopMediaStream = (mediaStream: MediaStream) => {
+export const stopMediaStream = (mediaStream: MediaStream | null): void => {
   if (!mediaStream) {
     return;
   }
