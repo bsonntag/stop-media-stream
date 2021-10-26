@@ -16,16 +16,19 @@
   },
   "license": "MIT",
   "author": "Benjamim Sonntag <benjamimsonntag@gmail.com>",
-  "files": [
-    "index.js"
-  ],
   "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "scripts": {
     "lint": "eslint .",
     "test": "electron-mocha --renderer --color"
   },
   "devDependencies": {
     "@bsonntag/eslint-config": "^0.6.0",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
     "chai": "^4.2.0",
     "electron": "^11.5.0",
     "electron-mocha": "^9.2.0",
@@ -33,6 +36,7 @@
     "husky": "^3.0.9",
     "lint-staged": "^9.4.2",
     "prettier": "^1.18.2",
-    "sort-package-json": "^1.22.1"
+    "sort-package-json": "^1.22.1",
+    "typescript": "^4.4.4"
   }
 }

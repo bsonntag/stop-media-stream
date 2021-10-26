@@ -4,4 +4,9 @@ module.exports = {
     node: true,
   },
   extends: '@bsonntag',
+  settings: {
+    react: {
+      version: '999.999.999',
+    },
+  },
 };
