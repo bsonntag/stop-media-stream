@@ -27,7 +27,7 @@
   "devDependencies": {
     "@bsonntag/eslint-config": "^0.6.0",
     "chai": "^4.2.0",
-    "electron": "^13.6.6",
+    "electron": "^22.3.21",
     "electron-mocha": "^9.2.0",
     "eslint": "^7.2.0",
     "husky": "^3.0.9",
