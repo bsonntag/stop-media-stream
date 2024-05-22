@@ -1,3 +1,4 @@
+/** Stops and removes all tracks from a given media stream. */
 function stopAndRemoveTrack(mediaStream) {
   return function(track) {
     track.stop();
@@ -5,6 +6,7 @@ function stopAndRemoveTrack(mediaStream) {
   };
 }
 
+/** Stops a media stream while making sure all tracks are removed. */
 function stopMediaStream(mediaStream) {
   if (!mediaStream) {
     return;
